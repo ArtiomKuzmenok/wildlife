@@ -1,0 +1,149 @@
+.latest-articles {
+    background-color: #CCCCCC;
+    padding-top: 120px;
+    height: 1368px;
+    h2 {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+        color: $font-dark;
+    }
+    .latest-articles__description {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: $font-gray;
+        margin-bottom: 120px;
+        margin-top: 1em;
+    }
+    h3 {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 40px;
+        text-align: center;
+        color: $font-dark;
+        padding-top: 239px;
+    }
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-photo {
+    position: relative;
+    margin: 0, 10px;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 32%;
+}
+.photo-name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height, or 164% */
+
+    text-align: center;
+
+    /* font-light */
+
+    color: #F7F7F7;
+    margin: 0 ;
+    margin-bottom: 10px;
+}
+.photo-description {
+    margin: 0 ;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 27px;
+/* identical to box height, or 159% */
+
+text-align: center;
+
+/* font-light */
+
+color: #F7F7F7;
+}
+
+.get-notified__form {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-top: 59px;
+    .input {
+        border: 1px solid #666666;
+        width: 540px/16px*1rem;
+        background-color: #CCCCCC;
+        
+    }
+    .input:focus,
+    .input:active {
+        outline: none;
+    }
+    .submit {
+        border: 1px solid $orange-main;
+        border-radius: 0 5px 5px 0;
+        background-color: $orange-main;
+        width: 120px/16px*1rem;
+        font-family: $font-logo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: $font-light;
+    }
+    .submit:focus,
+    .submit:active {
+        outline: none;
+    }
+    .submit:hover {
+        cursor: pointer;
+    }
+    input[type=text] {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+
+        /* font-grey */
+
+        color: #666666;
+        padding-left: 0.5em;
+        padding-top: 0.05em;
+        outline: 0;
+    outline-offset: 0;
+        
+    }
+    input[type=submit]{
+        padding-left: 1.4em;
+    }
+    
+}
+.left-arrow:hover, 
+.right-arrow:hover {
+    cursor: pointer;
+}

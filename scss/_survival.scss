@@ -1,0 +1,55 @@
+.survival {
+    display: flex;
+    flex-direction: column;
+    width: 274px/16px*1rem;
+    height: 340px;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 14em;
+    h2 {
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 72px;
+        letter-spacing: 2px;
+        color: $orange-main;
+        text-transform: none;
+    }
+    p{
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: $font-light;
+    }
+    button{
+        width: 160px/16px*1rem;
+        background-color: $orange-main;
+        border-radius: 5px;
+        border: none;
+        height: 60px;
+        font-family: $font-logo;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 27px;
+        text-align: center;
+        color: $font-light;
+        
+    }
+    button:hover {
+        background-color: $orange-light;
+        cursor: pointer;
+
+    }
+    button:active, button:focus {
+        outline: none;
+      }
+    button:active {
+        background-color: $orange-dark;
+        border: none;
+        outline: none;
+    }
+}

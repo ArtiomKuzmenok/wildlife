@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 19px;
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 14em;
+    justify-content: space-between;
+}
+h1 {
+    font-family: $font-logo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: $font-light;
+}
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 30em;
+        margin-left: 1em;
+        li {
+            a {
+                display: flex;
+                font-family: $font-main;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 23px;
+                line-height: 60px;
+                color: $font-light;
+                text-decoration: none;
+            }
+        }
+        .sign {
+            border: 2px solid $orange-main;
+            padding: 10px 23px;
+            border-radius: 5px;
+
+            a {
+                font-family: $font-logo;
+                line-height: 27px;
+            }
+
+        }
+    }
+
+.sign:hover {
+    background-color: $orange-main;
+    cursor: pointer;
+    border: 2px solid $orange-main;
+}
+.sign:active {
+    background-color: $orange-dark;
+    border: 2px solid $orange-dark;
+}
+.sign a:hover {
+    text-decoration: none;
+}
